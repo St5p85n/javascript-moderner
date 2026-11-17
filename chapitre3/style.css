@@ -1,0 +1,18 @@
+.textRg{
+    color: red;
+}
+#gesti{
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+}
+#btnA{
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+#mondiv{
+    display: flex;
+}
