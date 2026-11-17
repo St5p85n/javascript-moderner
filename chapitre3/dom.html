@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="gesti">GestiShop</h1>
+    <div id="mondiv">
+        <div class="mondivG">
+            <form action="" id="formProd">
+            <label for="">Nom</label>
+            <input type="text" id="nom" name="nom"><br><br>
+             <label for="">Prix</label>
+            <input type="number" id="prix" name="prix"><br><br>
+            <label for="">Categorie</label>
+            <input type="text" id="categorie" name="categorie"><br><br>
+            <button id="btnA">Ajouter</button>
+        </form>
+        </div>
+        <div class="mondivD">
+            <table border="5">
+               <thead>
+                 <th>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOM</th>
+                        <th>PRIX</th>
+                        <th>CATEGORIE</th>
+                    </tr>
+                </th>
+               </thead>
+               <tbody id="maTable">
+
+               </tbody>
+            </table>
+        </div>
+        <div>
+                    <input type="text" placeholder="rechercher" id="rechercher">
+
+        </div>
+    </div>
+    <script type="module" src="dom.js"></script>
+</body>
+</html>
